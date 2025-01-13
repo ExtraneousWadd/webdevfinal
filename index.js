@@ -104,7 +104,7 @@ function showProfilePicture(imgElement, user) {
     if (user && user.photoURL) {
         imgElement.src = user.photoURL;
     } else {
-        imgElement.src = "assets/images/default-profile-picture.jpeg";
+        imgElement.src = "assets/images/defaultPic.jpg";
     }
 }
 
